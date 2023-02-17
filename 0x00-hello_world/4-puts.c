@@ -1,4 +1,4 @@
-#include <studio>
+#include <stdio>
 /**
  * mqin - entry point
  * return:always 0 (success)
