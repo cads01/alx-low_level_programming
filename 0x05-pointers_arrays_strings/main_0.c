@@ -1,5 +1,6 @@
 #include <stdio.h>
-void reset_to_98(int *);
+
+void swap_int(int *, int *);
 
 /**
  * main - check the code for Holberton School students.
@@ -8,11 +9,13 @@ void reset_to_98(int *);
  */
 int main(void)
 {
-	int n;
+	int a;
+	int b;
 
-	n = 402;
-	printf("%d\n", n);
-	reset_to_98(&n);
-	printf("%d\n", n);
+	a = 98;
+	b = 42;
+	printf("%d, %d\n", a, b);
+	swap_int(&a, &b);
+	printf("%d, %d\n", a, b);
 	return (0);
 }
